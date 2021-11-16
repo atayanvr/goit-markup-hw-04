@@ -289,9 +289,6 @@ text-transform: uppercase;
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
-    
-
-    
 }
 
 .item-do{  
@@ -368,7 +365,6 @@ letter-spacing: 0.03em;
 }
 
 .icon-team{
-   
     width: 20px;
     height: 20px;
     fill: var(--socials-color);
@@ -377,17 +373,19 @@ letter-spacing: 0.03em;
 .social-list{
     display: flex;
     align-items: center;
-  
 }
 
-.social-list:hover{
+.team-link:hover{
     display: flex;
     background-color: var(--accent-color);
     width: 44px;
     height: 44px;
+    align-items: center;
     justify-content: center;
     border-radius: 50%;
 }
+
+
 
 .social-list:hover .icon-team{
     fill: var(--primary-white-color);
