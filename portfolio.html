@@ -15,7 +15,8 @@
 
     <header class="header">
         <nav class="container main-nav">
-              <a href="./index.html" class="logo">Web<span>Studio</span></a>
+              <a href="./index.html" class="logo">Web<span>Studio</span>
+              </a>
           <ul class="site-nav list">
             <li class="item"><a class="link" href="">Студия</a></li>
             <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
@@ -23,8 +24,23 @@
          </ul>
        
        <div class="contact">
-        <a class="link" href="mailto:info@example.com">info@example.com</a><br />
-        <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
+        
+        <a class="contact-link" href="mailto:info@example.com">
+           <svg class="icon-contact" width="16px" height="16px">
+           <use href="/images/icons.svg#icon-envelope">
+           </use>
+        </svg>info@example.com</a>
+  
+        <br />
+        
+  
+        <a class="contact-link" href="tel:+380991111111">
+           <svg class="icon-contact" width="16px" height="16px">
+           <use href="/images/icons.svg#icon-vector"></use>
+        </svg>
+        +38 099 111 11 11
+     </a>
+        
        </div> 
      </nav>
      </header>
@@ -113,14 +129,62 @@
     </section>
 </main>
 
-<footer class="footer ">
-    <div class="footer-container container">
+ <!-- Footer Ooo-->
+
+ <footer class="footer">
+
+    <div class="container">
+    <div class="footer-wrap">
     <a href="" class="logo footer">Web<span>Studio</span></a>
-    <address>
+    <div class="adress-wrap">
        <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
        <a class="footer-link" href="mailto:info@example.com">info@example.com</a><br />
-    <a class="footer-link" href="tel:+380991111111">+38 099 111 11 11</a>
-    </address>
+       <a class="footer-link" href="tel:+380991111111">+38 099 111 11 11</a>
+    </div>
+    </div>
+
+    <!-- Socials -->
+
+<div class="footer-socials">
+ <p class="footer-socials-title">Присоединяйтесь</p>
+
+ <ul class="social-footer">
+
+    <li class="social-footer-list">
+       <a class="social-footer-link" href="#">
+       <svg class="icon-footer" width="20" height="20">
+          <use href="/images/icons.svg#icon-instagram"></use>
+       </svg>
+    </a>
+
+    </li>
+    <li class="social-footer-list">
+       <a class="social-footer-link" href="#">
+       <svg class="icon-footer" width="20" height="20">
+          <use href="/images/icons.svg#icon-twitter-1"></use>
+       </svg>
+       </a>
+    </li>
+
+    <li class="social-footer-list">
+       <a class="social-footer-link" href="#">
+       <svg class="icon-footer" width="20" height="20">
+          <use href="/images/icons.svg#icon-facebook"></use>
+       </svg>
+       </a>
+    </li>
+
+    <li class="social-footer-list">
+       <a class="social-footer-link" href="#">
+       <svg class="icon-footer" width="20" height="20">
+          <use href="/images/icons.svg#icon-linkedin"></use>
+       </svg>
+       </a>
+    </li>
+
+ </ul>
+
+</div>
     </div>
  </footer>
 </body>

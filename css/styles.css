@@ -377,6 +377,7 @@ letter-spacing: 0.03em;
 .social-list{
     display: flex;
     align-items: center;
+  
 }
 
 .social-list:hover{
@@ -385,10 +386,7 @@ letter-spacing: 0.03em;
     width: 44px;
     height: 44px;
     justify-content: center;
-    background-position: bottom;
     border-radius: 50%;
-  
-    
 }
 
 .social-list:hover .icon-team{
@@ -523,12 +521,25 @@ margin-left: 70px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.social-footer-list:hover{
+    background-color: var(--accent-color);
 }
 
 .social-footer-link{
-
+   
 }
 
+.icon-footer{
+    fill: var(--primary-white-color);
+    
+    
+}
 
 
 
