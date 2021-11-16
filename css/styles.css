@@ -340,6 +340,8 @@ letter-spacing: 0.03em;
     margin-right: 30px;
     min-height: 428px;
     background-color: var(--primary-white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-item:last-child{
@@ -452,6 +454,12 @@ button:hover{
     padding-bottom: 60px;
 }
 
+.footer-wrap{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 250px;
+}
 
 
 .logo.footer > span{
@@ -489,22 +497,39 @@ margin-bottom: 9px;
 
 /* Footer socials */
 
+.footer-socials-title{
+    color:var(--primary-white-color);
+    text-transform: uppercase;;
+font-size: 14px;
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.03em;
+}
+
 .footer-socials{
-
-    width: 206px;
-    height: 44px;
+display: inline-flex;
+flex-direction: column;
+margin-left: 70px;
+   
 }
 
-.footer-socials-item{
+.social-footer{
     display: flex;
+    justify-content: space-around;
 }
 
-.footer-socials-list{
-    width: 20px;
-    height: 20px;
-    margin-right: 22px;
+.social-footer-list{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
 }
 
-.footer-socials-item:last-child{
-    margin-right: 0;
+.social-footer-link{
+
 }
+
+
+
+
+
