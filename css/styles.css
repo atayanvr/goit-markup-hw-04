@@ -379,13 +379,13 @@ letter-spacing: 0.03em;
     fill: var(--socials-color);
 }
 
-.social-list{
+.social-item{
     display: flex;
     align-items: center;
     margin-right: 10px;
 }
 
-.social-list:last-child{
+.social-item:last-child{
     margin-right: 0;
 }
 
